@@ -1,0 +1,64 @@
+
+
+/* Responsive image */
+.profile-image {
+    max-width: 150px;
+    height: auto;
+    float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    background-color: red;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    width: 900px;
+}
+
+header h1 {
+    margin: 0;
+}
+  
+  /* Wrap bio text around the image */
+.bio::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Style description list terms */
+.description-list {
+    background-color: red;
+    padding: 10px;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.description-list dt {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+  
+  /* Align description list data */
+.description-list dd {
+    margin-left: 0;
+}
+  
+  /* Reset default list styles */
+.description-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
